@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.CourseDW.sa"
+  DTS:DTSID="{B9FB25EE-1B3B-4B3D-8CF5-C7319210DC6E}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=CourseDW;Provider=MSOLEDBSQL.1;Persist Security Info=True;Application Name=SSIS-course_new_ssis-{B9FB25EE-1B3B-4B3D-8CF5-C7319210DC6E}localhost.CourseDW.sa;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2/BMotVXv0Cbg9CIUw7twgAAAAACAAAAAAAQZgAAAAEAACAAAAAZuSYnoelfgGjlFZPmr1Y4MtDuB8X6S8aHqYAbIwhObQAAAAAOgAAAAAIAACAAAADaBBCbIgEOcRHWQYOLYlqq2HGOWU1zm67hLmMV3wH2H4AAAABZfXvLigHpWOkX5gYFzjwJ050lx7rz9Et4aLIqRvgx3HHA8k+AHEUqecKbC+VMTZNUNt1A0ME+MsfybdvadY43gKEWpEsd6N3iAh7oSW6kf72F4PfhckC/sx8/HJ1JsiCUVcQVUt3WM2ePsiT+3LCLtPRWXLjs67vfV5SmBC0DnEAAAAB5RZXqDfAEZcE1HFAK4ksW2tYQfVB5HcAXn2TjwdF1i77z6oRH/nbBgnJYP7W/QoYPAI2bs7OM0auZC87vmmFd</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
